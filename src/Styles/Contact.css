@@ -1,0 +1,53 @@
+.contact{
+    text-align: center;
+    min-height: 80vh;
+}
+.contact-title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.contact-text{
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 1.2rem;
+    opacity: .8;
+}
+/*Buttons*/
+.contact-action{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact-btn{
+    background:rgba(255,255,255,0.08) ;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+.contact-btn:hover{
+    background: rgba(255,255,255,0.15);
+    transform: translateY(-4px);
+}
+.contact-btn.primary{
+    background: white;
+    color: black;
+}
+.contact-btn.primary:hover{
+    background: #ddd;
+}
+
+.glow {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.glow:hover {
+  box-shadow:
+    0 0 10px rgba(0, 255, 255, 0.6),
+    0 0 20px rgba(0, 255, 255, 0.4),
+    0 0 40px rgba(0, 255, 255, 0.2);
+}

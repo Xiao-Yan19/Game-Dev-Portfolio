@@ -1,0 +1,36 @@
+.footer{
+    margin-top: 80px;
+    padding: 40px 20px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+.footer-content{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.footer-name{
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+.font-tagline{
+    margin-top: 6px;
+    font-size: 0.85rem;
+    color: #b5b5b5;
+}
+.footer-links {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-links a{
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    position: relative;
+    opacity: 0.8;
+}
+.footer-links a:hover{
+    opacity: 1;
+    text-shadow: 0 0 8px rgba(255,255,255,0.6);
+}
