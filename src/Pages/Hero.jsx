@@ -4,9 +4,9 @@ import { useState } from "react";
 import {useNavigate} from "react-router-dom"
 
 const slides = [
-"/public/Cat.jpg",
-'/public/ZombieMenu.jpg',
-'/public/kaneki.jpg'
+"/Cat.jpg",
+'/ZombieMenu.jpg',
+'/kaneki.jpg'
 ];
 
 function Hero(){
