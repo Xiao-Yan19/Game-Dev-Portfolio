@@ -37,7 +37,7 @@ function About(){
             </div>
             </div>  
            <div className="about-img">
-            <img src="/public/abhi.png" alt="AboutMe Image" />
+            <img src="/abhi.png" alt="AboutMe Image" />
            </div>
           </section>
         </>
